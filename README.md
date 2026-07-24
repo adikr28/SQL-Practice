@@ -1,4 +1,4 @@
-# 💾 SQL Practice
+# 💾 QueryCraft SQL
 
 <p align="center">
 
@@ -9,49 +9,53 @@
 </p>
 
 <p align="center">
-A structured SQL practice repository built with Microsoft SQL Server to strengthen database fundamentals, solve real-world problems, and prepare for technical interviews.
+A structured SQL practice repository built using Microsoft SQL Server to master SQL fundamentals, solve real-world business problems, and prepare for Data Analyst and SQL interviews.
 </p>
 
 ---
 
 # 📖 About
 
-This repository documents my SQL learning journey using **Microsoft SQL Server (SSMS)**.
+**QueryCraft SQL** is my personal SQL learning repository where I document concepts, practice questions, and real-world use cases using **Microsoft SQL Server (SSMS)**.
 
-It contains hands-on SQL practice ranging from fundamental queries to advanced concepts, with a focus on writing clean, efficient, and interview-ready SQL.
+The repository is organized topic-wise to make revision easier while progressively covering beginner to advanced SQL concepts.
 
 ---
 
 # 🎯 Objectives
 
-- Master SQL fundamentals
-- Strengthen database concepts
-- Practice real-world SQL queries
-- Solve interview-oriented problems
-- Build consistency through daily practice
+- Build strong SQL fundamentals
+- Practice interview-focused SQL questions
+- Learn SQL through hands-on examples
+- Improve query writing and optimization
+- Maintain a structured learning journey
 
 ---
 
 # 🗂 Repository Structure
 
 ```text
-SQL-Practice
+QueryCraft-SQL
 │
-├── 01_SELECT
-├── 02_WHERE
-├── 03_ORDER_BY
-├── 04_GROUP_BY
-├── 05_HAVING
-├── 06_JOINS
-├── 07_SUBQUERIES
-├── 08_CTE
-├── 09_WINDOW_FUNCTIONS
-├── 10_CASE
-├── 11_STRING_FUNCTIONS
-├── 12_DATE_FUNCTIONS
-├── 13_STORED_PROCEDURES
-├── 14_INTERVIEW_QUESTIONS
-├── Datasets
+├── 01_Basic
+│   ├── SELECT
+│   ├── WHERE
+│   ├── ORDER BY
+│   ├── GROUP BY & HAVING
+│   └── CREATE & INSERT
+│
+├── 02_Set Operator
+│   ├── UNION
+│   └── Set Operator Use Cases
+│
+├── 03_SQL Function
+│   ├── String Functions
+│   ├── Date & Time Functions
+│   ├── NULL Functions
+│   └── Aggregate Functions
+│
+├── 04_CASE WHEN Use Cases.sql
+│
 └── README.md
 ```
 
@@ -64,81 +68,95 @@ SQL-Practice
 | Database | Microsoft SQL Server |
 | IDE | SQL Server Management Studio (SSMS) |
 | Version Control | Git |
-| Repository Hosting | GitHub |
+| Repository | GitHub |
 
 ---
 
 # 📚 Topics Covered
 
+### SQL Basics
 - SELECT
 - WHERE
 - ORDER BY
-- DISTINCT
-- TOP
-- Aggregate Functions
 - GROUP BY
 - HAVING
-- INNER JOIN
-- LEFT JOIN
-- RIGHT JOIN
-- FULL JOIN
-- SELF JOIN
-- CROSS JOIN
+- CREATE TABLE
+- INSERT INTO
+
+### Set Operators
 - UNION
-- CASE
-- COALESCE
-- NULL Handling
+- UNION ALL
+- INTERSECT *(Coming Soon)*
+- EXCEPT *(Coming Soon)*
+
+### SQL Functions
 - String Functions
-- Date Functions
+- Date & Time Functions
+- Aggregate Functions
+- NULL Functions
+
+### Conditional Logic
+- CASE WHEN
+- COALESCE
+- ISNULL
+
+---
+
+# 🚀 Upcoming Topics
+
+- JOINS
 - Subqueries
-- Common Table Expressions (CTE)
+- Common Table Expressions (CTEs)
 - Window Functions
+- Views
 - Stored Procedures
+- User Defined Functions
+- Triggers
+- Transactions
+- Indexes
+- Query Optimization
+- Execution Plans
 - Interview Questions
+- Real-world Business Case Studies
 
 ---
 
-# 🚀 Goals
+# 🎯 Learning Goals
 
-- Write efficient SQL queries
-- Improve query optimization skills
-- Build a strong SQL foundation
+- Write clean and optimized SQL queries
+- Strengthen database fundamentals
+- Solve real-world SQL scenarios
 - Prepare for Data Analyst interviews
-- Continuously expand SQL knowledge
+- Practice consistently and document progress
 
 ---
 
-# 📌 Repository Status
+# 📊 Repository Status
 
 ```text
-Status          : Active
+Status          : Active 🟢
 
 Database        : Microsoft SQL Server
 
-Practice Mode   : Daily
+IDE             : SQL Server Management Studio
 
 Difficulty      : Beginner → Advanced
 
-Focus           : SQL + Interview Preparation
+Focus           : SQL + Data Analytics + Interview Preparation
 ```
 
 ---
 
-# 📈 Future Topics
+# 🤝 Contributions
 
-- Views
-- Indexes
-- Functions
-- Triggers
-- Transactions
-- Query Optimization
-- Execution Plans
-- Real-world Case Studies
+This repository is primarily for my personal learning journey. Suggestions, improvements, and feedback are always welcome.
 
 ---
 
-## ✨ Note
+## ⭐ Support
 
-> **This repository is continuously updated as I learn new SQL concepts and solve practical database problems.**
+If you find this repository useful, consider giving it a **Star ⭐**. It motivates me to continue learning and sharing my progress.
 
 ---
+
+> **QueryCraft SQL is continuously updated as I explore new SQL concepts, solve interview problems, and work on practical database scenarios.**
